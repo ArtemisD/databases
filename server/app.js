@@ -1,4 +1,5 @@
 var express = require('express');
+console.log('hello');
 var db = require('./db');
 
 // Middleware
@@ -29,4 +30,3 @@ if (!module.parent) {
   app.listen(app.get('port'));
   console.log('Listening on', app.get('port'));
 }
-
