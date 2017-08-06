@@ -1,5 +1,5 @@
 var express = require('express');
-console.log('hello');
+
 var db = require('./db');
 
 // Middleware
